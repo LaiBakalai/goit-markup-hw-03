@@ -1,0 +1,100 @@
+body {
+    font-style: normal;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.main-header-menu {
+    list-style: none;
+}
+
+.main-header-menu-item,
+.logo {
+    text-decoration: none;
+    
+}
+.main-header-menu-add {
+    font-style: normal;
+    text-decoration: none;
+}
+
+.logo {
+    word-spacing: -0.2em;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*Color of an active link */
+a:active {
+    color: #404BBF;
+}
+
+/*Color of a hover link */
+a:hover {
+    color: #404BBF;
+}
+
+/*For the color of the word WEB */
+.web {
+    color: #4D5AE5;
+
+}
+
+/*For the color of the word STUDIO on Topline */
+.studio_black {
+    color: #2E2F42;
+}
+
+/*For the color of the word STUDIO on Footer */
+#studio_white {
+    color: white;
+}
+
+.hero {
+    background-color: #2E2F42;
+}
+
+.hero h1 {
+    font-weight: 700;
+    font-size: 56px;
+    letter-spacing: 0.02em;
+    line-height: 1.071;
+    color: white;
+    width: 496px;
+}
+
+.hero button {
+    border-radius: 4px;
+    background: var(--iris, #4D5AE5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+/*Button hover*/
+.hero button:hover {
+    background-color: #404BBF;
+}
+
+/* Set background color for footer */
+footer {
+    background-color: #2E2F42;
+}
+
+/* Set font color for footer p and width*/
+footer p {
+    color: white;
+    width: 264px;
+}
