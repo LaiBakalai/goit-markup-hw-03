@@ -30,6 +30,7 @@ body {
    letter-spacing: 0.03em;
    text-transform: uppercase;
    word-spacing: -0.2em;
+   text-decoration: none;
 }
 
 .web_logo {
@@ -44,24 +45,30 @@ body {
    color: var(--primary-white-color);
 }
 
-/* navigation menu */
-/* all anchor tags */
-a {
+/* navigation menu and contacts-menu */
+.nav-menu a,
+.contacts-menu a {
    text-decoration: none;
    color: var(--dark-color);
 }
 
-a:hover,
-a:focus,
+.nav-menu a:hover,
+.nav-menu a:focus,
+.contacts-menu a:hover,
 .page-link-current {
    color: var(--pressed-state);
 }
 
 /* all ul-lists */
-ul {
+.nav-menu,
+.contacts-menu,
+.features,
+.what-are-we-doing,
+.team-list,
+.filter-buttons,
+.project-cards {
    list-style: none;
 }
-
 
 /* hero section */
 .hero {
@@ -74,7 +81,7 @@ ul {
    text-align: center;
 }
 
-.hero button {
+.hero-button {
    background-color: var(--primary-brand-color);
    color: var(--primary-white-color);
    font-family: inherit;
@@ -83,9 +90,12 @@ ul {
    cursor: pointer;
 }
 
-.hero button:hover,
-.hero button:focus {
+.hero-button:hover {
    background-color: var(--pressed-state);
+}
+
+.hero-button:active {
+   background-color: var(--primary-brand-color);
 }
 
 
@@ -107,13 +117,13 @@ ul {
    background-color: var(--light-mode-color);
 }
 
-.team h2,
-.team h3,
-.team p {
+.team-section h2,
+.team-section h3,
+.team-section p {
    text-align: center;
 }
 
-/* filter buttons - portfolio*/
+/* filter buttons in portfolio page*/
 .filter-button,
 .filter-button-current {
    background-color: var(--light-mode-color);
@@ -123,9 +133,10 @@ ul {
    font-weight: 500;
    line-height: 1.5;
    letter-spacing: 0.04em;
+   cursor: pointer;
 }
 
-.filter-button-current {
+.filter-button-currentt {
    background-color: var(--pressed-state);
    color: var(--primary-white-color);
    border-color: transparent;
@@ -139,11 +150,11 @@ ul {
 }
 
 /*footer section */
-footer {
+.footer-section {
    background-color: var(--herobackground-headings);
 }
 
-footer p {
+.footer-section p {
    color: var(--light-mode-color);
    width: 264px;
 }
