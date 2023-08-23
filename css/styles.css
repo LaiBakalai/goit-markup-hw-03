@@ -319,7 +319,11 @@ a:focus {
    width: 360px;
    height: auto;
    padding: 0;
+   border: 1px solid var(--accent-color);
+   border-radius: 10px 10px;
+   box-shadow: 2px 2px 2px var(--accent-color);
 }
+
 
 .project-cards {
    list-style: none;
