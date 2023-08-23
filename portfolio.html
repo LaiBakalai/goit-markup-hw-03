@@ -4,127 +4,133 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Espera, Marilie L.</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet" />
+    <title>Espera, Marilie L.</title>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <!-- WEBSTUDIO logo-->
-            <a class="logo" href="./index.html">
-                <span class="web_logo">WEB</span>
-                <span class="studio_black_logo">STUDIO</span>
-            </a>
-
-            <!-- navigation menu -->
-            <ul class="nav-menu">
-                <li class="nav-menu-list">
-                    <a href="./index.html">Studio</a>
-                </li>
-                <li>
-                    <a href="./portfolio.html" class="page-link-current">Portfolio</a>
-                </li>
-                <li>
-                    <a href="#">Contacts</a>
-                </li>
+    <header class="header-section">
+        <div class="header-container">
+            <nav class="nav-container">
+                <!-- WEBSTUDIO logo-->
+                <a class="logo" href="./index.html">
+                    <span class="web_logo">WEB</span>
+                    <span class="studio_black_logo">STUDIO</span>
+                </a>
+    
+                <!-- navigation menu -->
+                <ul class="nav-menu">
+                    <li class="nav-menu-list">
+                        <a href="./index.html">Studio</a>
+                    </li>
+                    <li class="nav-menu-list">
+                        <a class="page-current" href="./portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-menu-list">
+                        <a href="#" class="page-link">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+    
+            <!-- contacts menu-->
+            <ul class="contacts-menu">
+                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a href="tel:+110001111111">+11(000) 111-11-11</a></li>
             </ul>
-        </nav>
-
-        <!-- contacts menu-->
-        <ul class="contacts-menu">
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+110001111111">+11(000) 111-11-11</a></li>
-        </ul>
+        </div>
     </header>
 
     <main>
         <section class="filter-section">
-            <h2 hidden>Projects</h2>
-            <ul class="filter-buttons">
-                <li>
-                    <button type="button" class="filter-button">All</button>
-                </li>
-                <li>
-                    <button type="button" class="filter-button">Web Site</button>
-                </li>
-                <li>
-                    <button type="button" class="filter-button">App</button>
-                </li>
-                <li>
-                    <button type="button" class="filter-button">Design</button>
-                </li>
-                <li>
-                    <button type="button" class="filter-button">Marketing</button>
-                </li>
-            </ul>
-
-
-            <ul class="project-cards">
-                <li class="card">
-                    <img src="images/bankingapp-interface.jpg" alt="App designs" width="360">
-                    <h3>Banking App Interface Concept</h3>
-                    <p>App</p>
-                </li>
-                <li class="project-card">
-                    <img src="images/cashlesspayment.jpg" alt="Phone tapping QR code on scanner" width="360">
-                    <h3>Cashless Payment</h3>
-                    <p>Marketing</p>
-                </li>
-                <li class="project-card">
-                    <img src="images/meditation.jpg" alt="A laptop and smartphone showing an app design" width="360">
-                    <h3>Meditation</h3>
-                    <p>App</p>
-                </li>
-                <li class="project-card">
-                    <img src="images/portfolio_section2_img1.jpg" alt="A driver holding a wheel inside the car"
-                        width="360">
-                    <h3>Taxi Service</h3>
-                    <p>Marketing</p>
-                </li>
-                <li class="project-card">
-                    <img src="images/portfolio_section2_img2.jpg" alt="Smartphone UI designs" width="360">
-                    <h3>Screen Illustrations</h3>
-                    <p>Design</p>
-                </li>
-                <li class="project-card">
-                    <img src="images/portfolio_section2_img3.jpg" alt="A woman happily checking on her phone"
-                        width="360">
-                    <h3>Online Courses</h3>
-                    <p>Marketing</p>
-                </li>
-                <li class="project-card">
-                    <img src="images/portfolio_section3_img1.jpg" alt="Instagram layout" width="360">
-                    <h3>Instagram Stories Concept</h3>
-                    <p>Design</p>
-                </li>
-                <li class="project-card">
-                    <img src="images/portfolio_section3_img2.jpg"
-                        alt="A woman bringing bag of fresh fruits and vegetables" width="360">
-                    <h3>Organic Food</h3>
-                    <p>Web Site</p>
-                </li>
-                <li class="project-card">
-                    <img src="images/portfolio_section3_img3.jpg" alt="A barista making coffee" width="360">
-                    <h3>Fresh Coffee</h3>
-                    <p>Web Site</p>
-                </li>
-            </ul>
+            <div class="filter-section-container">
+                <h2 hidden>Projects</h2>
+                <ul class="filter-buttons">
+                    <li class="filter-buttons-item">
+                        <button type="button" class="filter-button filter-button-current">All</button>
+                    </li>
+                    <li class="filter-buttons-item">
+                        <button type="button" class="filter-button">Web Site</button>
+                    </li>
+                    <li class="filter-buttons-item">
+                        <button type="button" class="filter-button">App</button>
+                    </li>
+                    <li class="filter-buttons-item">
+                        <button type="button" class="filter-button">Design</button>
+                    </li>
+                    <li class="filter-buttons-item">
+                        <button type="button" class="filter-button">Marketing</button>
+                    </li>
+                </ul>
+                
+                <ul class="project-cards">
+                    <li class="project-card">
+                        <img src="images/bankingapp-interface.jpg" alt="App designs" width="360">
+                        <h3>Banking App Interface Concept</h3>
+                        <p>App</p>
+                    </li>
+                    <li class="project-card">
+                        <img src="images/cashlesspayment.jpg" alt="Phone tapping QR code on scanner" width="360">
+                        <h3>Cashless Payment</h3>
+                        <p>Marketing</p>
+                    </li>
+                    <li class="project-card">
+                        <img src="images/meditation.jpg" alt="A laptop and smartphone showing an app design" width="360">
+                        <h3>Meditation</h3>
+                        <p>App</p>
+                    </li>
+                    <li class="project-card">
+                        <img src="images/portfolio_section2_img1.jpg" alt="A driver holding a wheel inside the car"
+                            width="360">
+                        <h3>Taxi Service</h3>
+                        <p>Marketing</p>
+                    </li>
+                    <li class="project-card">
+                        <img src="images/portfolio_section2_img2.jpg" alt="Smartphone UI designs" width="360">
+                        <h3>Screen Illustrations</h3>
+                        <p>Design</p>
+                    </li>
+                    <li class="project-card">
+                        <img src="images/portfolio_section2_img3.jpg" alt="A woman happily checking on her phone"
+                            width="360">
+                        <h3>Online Courses</h3>
+                        <p>Marketing</p>
+                    </li>
+                    <li class="project-card">
+                        <img src="images/portfolio_section3_img1.jpg" alt="Instagram layout" width="360">
+                        <h3>Instagram Stories Concept</h3>
+                        <p>Design</p>
+                    </li>
+                    <li class="project-card">
+                        <img src="images/portfolio_section3_img2.jpg"
+                            alt="A woman bringing bag of fresh fruits and vegetables" width="360">
+                        <h3>Organic Food</h3>
+                        <p>Web Site</p>
+                    </li>
+                    <li class="project-card">
+                        <img src="images/portfolio_section3_img3.jpg" alt="A barista making coffee" width="360">
+                        <h3>Fresh Coffee</h3>
+                        <p>Web Site</p>
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
 
-    <footer>
-        <div class="footer-section">
-            <a class="logo" href="./index.html">
+    <footer class="footer-section">
+        <div class="footer-section-container">
+            <a class="logo" href="index.html">
                 <span class="web_logo">WEB</span>
                 <span class="studio_white_logo">STUDIO</span>
             </a>
             <p>
                 Increase the flow of customers and sales for your business with digital marketing & growth solutions.
             </p>
+        </div>
     </footer>
 
 </body>
