@@ -15,6 +15,7 @@
    src: url("/fonts/Raleway-ExtraBold.ttf");
 }
 
+
 * {
    box-sizing: border-box;
 
@@ -76,20 +77,27 @@ h3 {
    display: flex;
 }
 
+
+.nav-menu {
+   gap: 40px;
+
+}
 .nav-menu li:first-child {
    margin-left: 78px;
 }
-
+/*
 .nav-menu li {
-   margin-right:40px;
+   column-gap:40px;
 }
 
 .nav-menu-list {
    margin-right: 20px;
 }
-
+*/
 .contacts-menu {
    display: flex;
+   justify-content: flex-end;
+   gap: 40px;
 }
 
 .contacts-menu li:first-child {
