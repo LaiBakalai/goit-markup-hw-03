@@ -10,7 +10,6 @@
 
 }
 
-
 * {
    box-sizing: border-box;
 }
@@ -229,10 +228,15 @@ h3 {
    flex-direction: column;
    justify-content: center;
    align-items: center;
+}
+
+.team-list-item h3{
+   margin-top: 0;
    margin-bottom: 8px;
 }
 
 .team-list-item p {
+   margin-top: 0;
    margin-bottom: 32px;
 }
 
@@ -296,6 +300,7 @@ h3 {
    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
+
 .project-cards {
    list-style: none;
    padding: 0;
@@ -315,23 +320,26 @@ h3 {
    padding-bottom: 0px;
    flex-direction: column;
    align-items: flex-start;
-   column-gap: 32px;
    flex-shrink: 0;
    border-bottom: 1px solid var(--accent-color);
    border-right: 1px solid var(--accent-color);
    border-left: 1px solid var(--accent-color);
+   margin-bottom: 48px;
 }
 
 .project-card-item img {
    margin-bottom: 32px;
 }
 
-.project-card-item p {
-   margin-bottom: 32px;
+.project-card-item h3 {
+   margin-top: 0;
+   margin-bottom: 8px;
+   padding-left: 16px;
 }
 
-.project-card-item h3,
 .project-card-item p {
+   margin-top: 0;
+   margin-bottom: 32px;
    padding-left: 16px;
 }
 
